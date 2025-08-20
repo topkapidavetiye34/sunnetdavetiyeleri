@@ -1,21 +1,5 @@
 User-agent: *
 Allow: /
 
-# Allow access to CSS and JS files
-Allow: /styles.css
-Allow: /script.js
-
-# Allow access to images and icons
-Allow: /fotos/
-Allow: /icon/
-
-# Allow access to sitemap
-Allow: /sitemap.xml
-
-# Disallow development and internal directories
-Disallow: /.git/
-Disallow: /.vscode/
-Disallow: /pythonscrape/
-
 # Sitemap location
-Sitemap: https://yourwebsite.com/sitemap.xml
+Sitemap: https://www.topkapidavetiye.com/sitemap.xml
