@@ -1,351 +1,6 @@
 // Products data embedded directly to avoid CORS issues
 const productsData = [
   {
-    "kategori": "Normal",
-    "urunler": [
-      {
-        "urun_kodu": "1101",
-        "fiyat": "748, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "3026",
-        "fiyat": "1448, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2375",
-        "fiyat": "398, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2575",
-        "fiyat": "788, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "3800",
-        "fiyat": "848, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "5005",
-        "fiyat": "1590, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "5025",
-        "fiyat": "1390, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "5040",
-        "fiyat": "1350, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "5045",
-        "fiyat": "1390, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "5066",
-        "fiyat": "1450, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "5085",
-        "fiyat": "1590, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "5100",
-        "fiyat": "1090, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "5109",
-        "fiyat": "1190, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1258",
-        "fiyat": "488, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1234",
-        "fiyat": "298, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1301",
-        "fiyat": "688, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1323",
-        "fiyat": "588, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1337",
-        "fiyat": "698, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1434",
-        "fiyat": "698, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1445",
-        "fiyat": "945, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1480",
-        "fiyat": "418, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1535",
-        "fiyat": "358, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1583",
-        "fiyat": "688, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1611",
-        "fiyat": "688, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1617",
-        "fiyat": "688, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1618",
-        "fiyat": "298, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1619",
-        "fiyat": "298, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1620",
-        "fiyat": "298, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1735",
-        "fiyat": "688, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1819",
-        "fiyat": "388, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1827",
-        "fiyat": "428, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2001",
-        "fiyat": "688, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2005",
-        "fiyat": "738, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2008",
-        "fiyat": "548, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2009",
-        "fiyat": "488, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2015",
-        "fiyat": "538, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2018",
-        "fiyat": "498, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2032",
-        "fiyat": "558, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2033",
-        "fiyat": "458, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2059",
-        "fiyat": "288, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2069",
-        "fiyat": "288, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2072",
-        "fiyat": "268, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2073",
-        "fiyat": "268, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2080",
-        "fiyat": "288, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2085",
-        "fiyat": "288, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2086",
-        "fiyat": "288, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2088",
-        "fiyat": "288, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2091",
-        "fiyat": "238, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2093",
-        "fiyat": "238, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2095",
-        "fiyat": "238, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2096",
-        "fiyat": "238, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2097",
-        "fiyat": "288, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2098",
-        "fiyat": "288, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2150",
-        "fiyat": "358, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2355",
-        "fiyat": "398, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2360",
-        "fiyat": "398, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2365",
-        "fiyat": "398, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "2370",
-        "fiyat": "398, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "3023-Mühürsüz",
-        "fiyat": "968, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "3026-Mühürsüz",
-        "fiyat": "1148, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "3052",
-        "fiyat": "298, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "3056",
-        "fiyat": "788, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "3228",
-        "fiyat": "398, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "4039",
-        "fiyat": "838, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "4040",
-        "fiyat": "298, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "4041",
-        "fiyat": "298, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "4045",
-        "fiyat": "598, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "4047",
-        "fiyat": "598, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "4155",
-        "fiyat": "358, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "4185",
-        "fiyat": "358, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "4542",
-        "fiyat": "398, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "3023",
-        "fiyat": "1268, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1357",
-        "fiyat": "458, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1429",
-        "fiyat": "548, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1453",
-        "fiyat": "548, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1530",
-        "fiyat": "358, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1177",
-        "fiyat": "688, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1231",
-        "fiyat": "298, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1360",
-        "fiyat": "458, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1026",
-        "fiyat": "338, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1035",
-        "fiyat": "338, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1038",
-        "fiyat": "338, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1072",
-        "fiyat": "338, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1085",
-        "fiyat": "338, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1040",
-        "fiyat": "338, 00 TL  (100 Adet)"
-      }
-    ]
-  },
-  {
     "kategori": "Sunnet",
     "urunler": [
       {
@@ -385,9 +40,250 @@ const productsData = [
         "fiyat": "698, 00 TL  (100 Adet)"
       },
       {
-        "urun_kodu": "5035",
-        "fiyat": "1490, 00 TL  (100 Adet)"
+        "urun_kodu": "80901",
+        "fiyat": "1.006,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80902",
+        "fiyat": "810,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80903",
+        "fiyat": "881,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80904",
+        "fiyat": "1.009,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80905",
+        "fiyat": "981,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80906",
+        "fiyat": "2.248,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80907",
+        "fiyat": "981,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80908",
+        "fiyat": "911,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80909",
+        "fiyat": "1.068,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80911",
+        "fiyat": "11.662,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80912",
+        "fiyat": "1.316,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80913",
+        "fiyat": "12.555,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80914",
+        "fiyat": "1.062,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80915",
+        "fiyat": "1.209,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80916",
+        "fiyat": "7.828,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80917",
+        "fiyat": "9.098,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80918",
+        "fiyat": "899,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80919",
+        "fiyat": "1.153,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80921",
+        "fiyat": "650,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80922",
+        "fiyat": "650,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80923",
+        "fiyat": "861,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80924",
+        "fiyat": "1.020,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80925",
+        "fiyat": "8.829,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80926",
+        "fiyat": "650,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80927",
+        "fiyat": "11.439,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80928",
+        "fiyat": "8.829,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80929",
+        "fiyat": "650,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80931",
+        "fiyat": "1.261,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80932",
+        "fiyat": "861,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80933",
+        "fiyat": "911,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80934",
+        "fiyat": "1.283,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80935",
+        "fiyat": "650,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80936",
+        "fiyat": "861,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80938",
+        "fiyat": "911,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80939",
+        "fiyat": "798,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80941",
+        "fiyat": "798,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80942",
+        "fiyat": "861,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80943",
+        "fiyat": "1.209,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80944",
+        "fiyat": "1.209,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80945",
+        "fiyat": "1.209,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80946",
+        "fiyat": "1.248,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80947",
+        "fiyat": "812,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80948",
+        "fiyat": "1.891,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80949",
+        "fiyat": "650,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80951",
+        "fiyat": "650,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80952",
+        "fiyat": "1.675,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80953",
+        "fiyat": "970,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80954",
+        "fiyat": "650,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80955",
+        "fiyat": "1.109,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80957",
+        "fiyat": "11.238,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80958",
+        "fiyat": "11.110,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80959",
+        "fiyat": "874,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80962",
+        "fiyat": "874,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80964",
+        "fiyat": "2.955,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80965",
+        "fiyat": "8.230,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80967",
+        "fiyat": "981,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80971",
+        "fiyat": "6.248,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80972",
+        "fiyat": "5.926,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80973",
+        "fiyat": "1.621,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80974",
+        "fiyat": "1.020,00 TL (100 Adet)"
+      },
+      {
+        "urun_kodu": "80975",
+        "fiyat": "1.020,00 TL (100 Adet)"
       }
+
     ]
   }
 ];
@@ -442,8 +338,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize menu
     initializeMenu();
     
-    // Initialize category cards
-    initializeCategoryCards();
+
     
     // Initialize navigation buttons
     initializeNavigationButtons();
@@ -454,8 +349,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Initialize header scroll effect
     initializeHeaderScroll();
     
-    // Initialize hero slider
-    initializeHeroSlider();
+
     
     // Initialize search functionality
     initializeSearch();
@@ -463,6 +357,12 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Initialize mobile optimizations
     initializeMobileOptimizations();
+    
+    // Initialize splash screen
+    initializeSplashScreen();
+    
+    // Initialize showcase gallery
+    initializeShowcaseGallery();
 
 });
 
@@ -506,19 +406,7 @@ function initializeMenu() {
     console.log('Menu initialized successfully');
 }
 
-// Initialize category cards
-function initializeCategoryCards() {
-    const categoryCards = document.querySelectorAll('.category-card');
-    console.log('Found category cards:', categoryCards.length);
-    
-    categoryCards.forEach(function(card) {
-        card.addEventListener('click', function() {
-            const category = this.getAttribute('data-category');
-            console.log('Category card clicked:', category);
-            showProducts(category);
-        });
-    });
-}
+
 
 // Initialize navigation buttons
 function initializeNavigationButtons() {
@@ -699,7 +587,6 @@ function showProducts(category) {
     
     // Update title
     const categoryNames = {
-        'Normal': 'Düğün & Nişan Davetiyesi',
         'Sunnet': 'Sünnet Davetiyesi'
     };
     productsTitle.textContent = categoryNames[category] || 'Ürünler';
@@ -737,11 +624,16 @@ function createProductCard(product) {
     // Create WhatsApp link
     const whatsappLink = `https://wa.me/905315244000?text=Merhaba,+${encodeURIComponent(product.urun_kodu)}+kodlu+davetiyenizle+ilgileniyorum!+Bilgi+alabilir+miyim?`;
     
+    // Determine image path - check if it's a new product (80xxx series)
+    const isNewProduct = product.urun_kodu.startsWith('80');
+    const imagePath = isNewProduct ? `yenifotolar/${product.urun_kodu}.jpg` : `fotos/${product.urun_kodu}.jpg`;
+    const fallbackPath = isNewProduct ? `fotos/${product.urun_kodu}.jpg` : `yenifotolar/${product.urun_kodu}.jpg`;
+    
     card.innerHTML = `
         <div class="product-image">
-            <img src="fotos/${product.urun_kodu}.jpg" 
+            <img src="${imagePath}" 
                  alt="Ürün ${product.urun_kodu}" 
-                 onerror="this.src='https://via.placeholder.com/300x300?text=Ürün+${product.urun_kodu}'">
+                 onerror="this.onerror=null; this.src='${fallbackPath}'; this.onerror=function(){this.src='https://via.placeholder.com/300x300?text=Ürün+${product.urun_kodu}'};">
             <div class="product-overlay">
                 <button class="detail-btn" onclick="showProductDetail('${product.urun_kodu}', '${product.fiyat.replace(/'/g, "\\'")}')">
                     <i class="fas fa-eye"></i> Detayları Gör
@@ -782,10 +674,19 @@ function showProductDetail(productCode, productPrice) {
     const detailOrderBtn = document.getElementById('detail-order-btn');
     
     if (detailImage) {
-        detailImage.src = `fotos/${productCode}.jpg`;
+        // Determine image path - check if it's a new product (80xxx series)
+        const isNewProduct = productCode.startsWith('80');
+        const imagePath = isNewProduct ? `yenifotolar/${productCode}.jpg` : `fotos/${productCode}.jpg`;
+        const fallbackPath = isNewProduct ? `fotos/${productCode}.jpg` : `yenifotolar/${productCode}.jpg`;
+        
+        detailImage.src = imagePath;
         detailImage.alt = `Ürün ${productCode}`;
         detailImage.onerror = function() {
-            this.src = `https://via.placeholder.com/600x600?text=Ürün+${productCode}`;
+            this.onerror = null;
+            this.src = fallbackPath;
+            this.onerror = function() {
+                this.src = `https://via.placeholder.com/600x600?text=Ürün+${productCode}`;
+            };
         };
     }
     
@@ -863,70 +764,22 @@ style.textContent = `
     }
 `;
 document.head.appendChild(style);
-// Hero Slider
-function initializeHeroSlider() {
-    const slides = document.querySelectorAll('.hero-slide');
-    const dots = document.querySelectorAll('.hero-slider-dot');
-    let currentSlide = 0;
-    
-    if (slides.length === 0 || dots.length === 0) return;
-    
-    // Load background images lazily
-    function loadSlideImage(slide) {
-        const bgUrl = slide.getAttribute('data-bg');
-        if (bgUrl && !slide.style.backgroundImage) {
-            slide.style.backgroundImage = `url('${bgUrl}')`;
-        }
-    }
-    
-    // Load first slide immediately
-    if (slides[0]) loadSlideImage(slides[0]);
-    
-    function showSlide(index) {
-        // Load current and next slide images
-        if (slides[index]) loadSlideImage(slides[index]);
-        if (slides[index + 1]) loadSlideImage(slides[index + 1]);
-        
-        // Remove active class from all slides and dots
-        slides.forEach(slide => slide.classList.remove('active'));
-        dots.forEach(dot => dot.classList.remove('active'));
-        
-        // Add active class to current slide and dot
-        if (slides[index]) slides[index].classList.add('active');
-        if (dots[index]) dots[index].classList.add('active');
-        
-        currentSlide = index;
-    }
-    
-    function nextSlide() {
-        const next = (currentSlide + 1) % slides.length;
-        showSlide(next);
-    }
-    
-    // Add click event to dots
-    dots.forEach((dot, index) => {
-        dot.addEventListener('click', () => showSlide(index));
-    });
-    
-    // Auto-advance slides every 4 seconds
-    setInterval(nextSlide, 4000);
-}
+
 
 // Search functionality
 let keywordsData = [];
 
 // Embedded keywords data as fallback
 const embeddedKeywordsData = [
-    {"urun_kodu": "3052", "anahtar_kelimeler": ["yeşil", "altın", "çiçekli", "modern", "elegant", "minimalist"]},
-    {"urun_kodu": "1434", "anahtar_kelimeler": ["beyaz", "çiçekli", "kaligrafik", "modern", "elegant", "minimalist"]},
-    {"urun_kodu": "1357", "anahtar_kelimeler": ["kırmızı", "beyaz", "kalp", "minimalist", "modern", "kaligrafik", "elegant"]},
-    {"urun_kodu": "2018", "anahtar_kelimeler": ["bej", "beyaz", "minimalist", "kaligrafik", "modern", "elegant", "doğal", "ahşap dokulu"]},
-    {"urun_kodu": "2575", "anahtar_kelimeler": ["siyah", "beyaz", "altın", "minimalist", "kaligrafik", "elegant", "vintage"]},
-    {"urun_kodu": "1035", "anahtar_kelimeler": ["bej", "altın folyo", "minimalist", "kaligrafik", "elegant", "doğal", "şık"]},
-    {"urun_kodu": "1009", "anahtar_kelimeler": ["lacivert", "beyaz", "geometrik", "modern", "kaligrafik", "elegant"]},
-    {"urun_kodu": "1535", "anahtar_kelimeler": ["beyaz", "yeşil", "minimalist", "kaligrafik", "elegant", "doğal", "şık"]},
-    {"urun_kodu": "5040", "anahtar_kelimeler": ["antrasit", "şeffaf", "minimalist", "modern", "kaligrafik", "elegant", "doğal"]},
-    {"urun_kodu": "5100", "anahtar_kelimeler": ["bej", "altın folyo", "minimalist", "modern", "elegant", "doğal dokulu"]}
+    {"urun_kodu": "1001", "anahtar_kelimeler": ["sünnet", "davetiye", "erkek", "çocuk", "mavi", "modern", "şık"]},
+    {"urun_kodu": "1002", "anahtar_kelimeler": ["sünnet", "davetiye", "klasik", "geleneksel", "beyaz", "altın", "elegant"]},
+    {"urun_kodu": "1003", "anahtar_kelimeler": ["sünnet", "davetiye", "renkli", "eğlenceli", "çocuk", "modern", "neşeli"]},
+    {"urun_kodu": "1004", "anahtar_kelimeler": ["sünnet", "davetiye", "premium", "lüks", "özel", "altın", "şık"]},
+    {"urun_kodu": "1005", "anahtar_kelimeler": ["sünnet", "davetiye", "minimalist", "sade", "modern", "beyaz", "temiz"]},
+    {"urun_kodu": "1006", "anahtar_kelimeler": ["sünnet", "davetiye", "çiçekli", "doğal", "yeşil", "elegant", "şık"]},
+    {"urun_kodu": "1007", "anahtar_kelimeler": ["sünnet", "davetiye", "özel", "tasarım", "lüks", "premium", "altın"]},
+    {"urun_kodu": "1008", "anahtar_kelimeler": ["sünnet", "davetiye", "modern", "geometrik", "çağdaş", "şık", "mavi"]},
+    {"urun_kodu": "1009", "anahtar_kelimeler": ["sünnet", "davetiye", "lüks", "premium", "özel", "altın", "elegant"]}
 ];
 
 // Load keywords data
@@ -953,7 +806,7 @@ async function loadKeywordsData() {
 
 // Show default suggestions if data loading fails
 function showDefaultSuggestions() {
-    const defaultKeywords = ['beyaz', 'elegant', 'minimalist', 'modern', 'altın', 'çiçekli', 'kaligrafik', 'doğal'];
+    const defaultKeywords = ['sünnet', 'davetiye', 'modern', 'şık', 'elegant', 'lüks', 'premium', 'altın'];
     const suggestionsList = document.getElementById('suggestions-list');
     if (suggestionsList) {
         suggestionsList.innerHTML = defaultKeywords
@@ -1176,9 +1029,9 @@ function createSearchProductCard(product) {
     
     card.innerHTML = `
         <div class="product-image">
-            <img src="fotos/${product.urun_kodu}.jpg" 
+            <img src="${product.urun_kodu.startsWith('80') ? `yenifotolar/${product.urun_kodu}.jpg` : `fotos/${product.urun_kodu}.jpg`}" 
                  alt="Ürün ${product.urun_kodu}" 
-                 onerror="this.src='https://via.placeholder.com/300x300?text=Ürün+${product.urun_kodu}'">
+                 onerror="this.onerror=null; this.src='${product.urun_kodu.startsWith('80') ? `fotos/${product.urun_kodu}.jpg` : `yenifotolar/${product.urun_kodu}.jpg`}'; this.onerror=function(){this.src='https://via.placeholder.com/300x300?text=Ürün+${product.urun_kodu}'};"
             <div class="product-overlay">
                 <button class="detail-btn" onclick="showProductDetail('${product.urun_kodu}', '${product.fiyat.replace(/'/g, "\\'")}')">
                     <i class="fas fa-eye"></i> Detayları Gör
@@ -1281,51 +1134,7 @@ function initializeMobileOptimizations() {
         });
     });
 
-    // Add swipe gesture for hero slider on mobile
-    let startX = 0;
-    let startY = 0;
-    let isScrolling = false;
 
-    const heroSlider = document.querySelector('.hero-slider');
-    if (heroSlider) {
-        heroSlider.addEventListener('touchstart', function(e) {
-            startX = e.touches[0].clientX;
-            startY = e.touches[0].clientY;
-            isScrolling = false;
-        }, { passive: true });
-
-        heroSlider.addEventListener('touchmove', function(e) {
-            if (!startX || !startY) return;
-
-            const diffX = Math.abs(e.touches[0].clientX - startX);
-            const diffY = Math.abs(e.touches[0].clientY - startY);
-
-            if (diffY > diffX) {
-                isScrolling = true;
-            }
-        }, { passive: true });
-
-        heroSlider.addEventListener('touchend', function(e) {
-            if (isScrolling) return;
-
-            const endX = e.changedTouches[0].clientX;
-            const diffX = startX - endX;
-
-            if (Math.abs(diffX) > 50) { // Minimum swipe distance
-                if (diffX > 0) {
-                    // Swipe left - next slide
-                    nextSlide();
-                } else {
-                    // Swipe right - previous slide
-                    previousSlide();
-                }
-            }
-
-            startX = 0;
-            startY = 0;
-            isScrolling = false;
-        }, { passive: true });
-    }
 
     // Optimize images for mobile
     const images = document.querySelectorAll('img');
@@ -1335,7 +1144,7 @@ function initializeMobileOptimizations() {
     });
 
     // Add touch feedback to buttons
-    const buttons = document.querySelectorAll('.btn, .category-card, .product-card');
+    const buttons = document.querySelectorAll('.btn, .product-card');
     buttons.forEach(button => {
         button.addEventListener('touchstart', function() {
             this.style.transform = 'scale(0.98)';
@@ -1381,16 +1190,7 @@ function initializeMobileOptimizations() {
 
     // Add orientation change handler
     window.addEventListener('orientationchange', function() {
-        setTimeout(() => {
-            // Recalculate hero height
-            const hero = document.querySelector('.hero');
-            if (hero) {
-                hero.style.height = window.innerHeight + 'px';
-                setTimeout(() => {
-                    hero.style.height = '';
-                }, 500);
-            }
-        }, 100);
+
     });
 
     // Improve search suggestions for mobile
@@ -1409,50 +1209,7 @@ function initializeMobileOptimizations() {
     }
 }
 
-// Helper functions for hero slider swipe
-function nextSlide() {
-    const slides = document.querySelectorAll('.hero-slide');
-    const dots = document.querySelectorAll('.hero-slider-dot');
-    let currentSlide = 0;
 
-    // Find current slide
-    slides.forEach((slide, index) => {
-        if (slide.classList.contains('active')) {
-            currentSlide = index;
-        }
-    });
-
-    // Move to next slide
-    slides[currentSlide].classList.remove('active');
-    dots[currentSlide].classList.remove('active');
-
-    currentSlide = (currentSlide + 1) % slides.length;
-
-    slides[currentSlide].classList.add('active');
-    dots[currentSlide].classList.add('active');
-}
-
-function previousSlide() {
-    const slides = document.querySelectorAll('.hero-slide');
-    const dots = document.querySelectorAll('.hero-slider-dot');
-    let currentSlide = 0;
-
-    // Find current slide
-    slides.forEach((slide, index) => {
-        if (slide.classList.contains('active')) {
-            currentSlide = index;
-        }
-    });
-
-    // Move to previous slide
-    slides[currentSlide].classList.remove('active');
-    dots[currentSlide].classList.remove('active');
-
-    currentSlide = currentSlide === 0 ? slides.length - 1 : currentSlide - 1;
-
-    slides[currentSlide].classList.add('active');
-    dots[currentSlide].classList.add('active');
-}
 
 // Performance optimizations
 function optimizePerformance() {
@@ -1488,5 +1245,231 @@ function optimizePerformance() {
     }
 }
 
+// Initialize splash screen
+function initializeSplashScreen() {
+    // === PARTİKÜL SİSTEMİ ===
+    const particlesContainer = document.getElementById('particles');
+    if (!particlesContainer) return;
+    
+    const particleCount = 40;
+
+    for (let i = 0; i < particleCount; i++) {
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+        particle.style.left = `${Math.random() * 100}%`;
+        particle.style.setProperty('--drift', `${(Math.random() - 0.5) * 200}px`);
+        particle.style.animationDelay = `${Math.random() * 20}s`;
+        particle.style.animationDuration = `${15 + Math.random() * 10}s`;
+        particlesContainer.appendChild(particle);
+    }
+
+    // === YILDIZ TOZLARI SİSTEMİ ===
+    const stardustContainer = document.getElementById('stardust');
+    if (stardustContainer) {
+        const starCount = 50;
+        const starSymbols = ['✦', '✧', '⋆', '✩', '✪'];
+
+        for (let i = 0; i < starCount; i++) {
+            const star = document.createElement('div');
+            star.className = 'star';
+            star.textContent = starSymbols[Math.floor(Math.random() * starSymbols.length)];
+            star.style.left = `${Math.random() * 100}%`;
+            star.style.top = `${Math.random() * 100}%`;
+            star.style.animationDelay = `${Math.random() * 3}s`;
+            star.style.animationDuration = `${2 + Math.random() * 2}s`;
+            stardustContainer.appendChild(star);
+        }
+    }
+
+    // === PERFORMANS OPTİMİZASYONU ===
+    let frameCount = 0;
+    let lastTime = performance.now();
+    
+    function checkPerformance() {
+        frameCount++;
+        const currentTime = performance.now();
+        const elapsed = currentTime - lastTime;
+        
+        if (elapsed >= 1000) {
+            const fps = Math.round((frameCount * 1000) / elapsed);
+            
+            // 30 FPS altındaysa partikül sayısını azalt
+            if (fps < 30) {
+                const particles = document.querySelectorAll('.particle');
+                particles.forEach((p, i) => {
+                    if (i > particleCount / 2) p.remove();
+                });
+            }
+            
+            frameCount = 0;
+            lastTime = currentTime;
+        }
+        
+        requestAnimationFrame(checkPerformance);
+    }
+    
+    requestAnimationFrame(checkPerformance);
+}
+
+// Initialize showcase gallery
+function initializeShowcaseGallery() {
+    const galleryGrid = document.getElementById('showcase-gallery-grid');
+    if (!galleryGrid) return;
+    
+    // Get Sunnet category products
+    const sunnetCategory = productsData.find(cat => cat.kategori === 'Sunnet');
+    if (!sunnetCategory || !sunnetCategory.urunler) return;
+    
+    // Shuffle and get random 6 products
+    const shuffledProducts = [...sunnetCategory.urunler].sort(() => Math.random() - 0.5);
+    const selectedProducts = shuffledProducts.slice(0, 6);
+    
+    // Create gallery items
+    selectedProducts.forEach((product, index) => {
+        const galleryItem = createGalleryItem(product, index);
+        galleryGrid.appendChild(galleryItem);
+    });
+}
+
+// Create gallery item
+function createGalleryItem(product, index) {
+    const item = document.createElement('div');
+    item.className = 'gallery-item';
+    
+    // Create WhatsApp link
+    const whatsappLink = `https://wa.me/905315244000?text=Merhaba,+${encodeURIComponent(product.urun_kodu)}+kodlu+sünnet+davetiyesi+hakkında+bilgi+almak+istiyorum!`;
+    
+    // Determine image path - check if it's a new product (80xxx series)
+    const isNewProduct = product.urun_kodu.startsWith('80');
+    const imagePath = isNewProduct ? `yenifotolar/${product.urun_kodu}.jpg` : `fotos/${product.urun_kodu}.jpg`;
+    const fallbackPath = isNewProduct ? `fotos/${product.urun_kodu}.jpg` : `yenifotolar/${product.urun_kodu}.jpg`;
+    
+    item.innerHTML = `
+        <img src="${imagePath}" 
+             alt="Sünnet Davetiyesi ${product.urun_kodu}" 
+             onerror="this.onerror=null; this.src='${fallbackPath}'; this.onerror=function(){this.src='https://via.placeholder.com/200x280/0F204C/D4AF37?text=Sünnet+Davetiyesi+${product.urun_kodu}'};">
+        <div class="gallery-item-overlay">
+            <div class="gallery-item-info">
+                <div class="gallery-item-code">${product.urun_kodu}</div>
+                <div class="gallery-item-price">${product.fiyat}</div>
+            </div>
+        </div>
+    `;
+    
+    // Add click event to show product detail
+    item.addEventListener('click', () => {
+        showProductDetail(product.urun_kodu, product.fiyat);
+    });
+    
+    return item;
+}
+
+// Scroll to showcase function
+function scrollToShowcase() {
+    const showcaseSection = document.getElementById('showcase-gallery');
+    if (showcaseSection) {
+        showcaseSection.scrollIntoView({ 
+            behavior: 'smooth',
+            block: 'center'
+        });
+    }
+}
+
 // Initialize performance optimizations
 document.addEventListener('DOMContentLoaded', optimizePerformance);
+
+// Mouse Trail Effect
+class MouseTrailEffect {
+    constructor() {
+        this.trails = [];
+        this.maxTrails = 15;
+        this.cursor = null;
+        this.init();
+    }
+
+    init() {
+        // Only initialize on desktop
+        if (window.innerWidth <= 768) return;
+
+        // Create custom cursor
+        this.cursor = document.createElement('div');
+        this.cursor.className = 'custom-cursor';
+        document.body.appendChild(this.cursor);
+
+        // Mouse move event
+        document.addEventListener('mousemove', (e) => {
+            this.updateCursor(e);
+            this.createTrail(e);
+        });
+
+        // Mouse click events
+        document.addEventListener('mousedown', () => {
+            if (this.cursor) this.cursor.classList.add('clicking');
+        });
+
+        document.addEventListener('mouseup', () => {
+            if (this.cursor) this.cursor.classList.remove('clicking');
+        });
+
+        // Clean up trails periodically
+        setInterval(() => this.cleanupTrails(), 100);
+    }
+
+    updateCursor(e) {
+        if (!this.cursor) return;
+        
+        this.cursor.style.left = e.clientX - 10 + 'px';
+        this.cursor.style.top = e.clientY - 10 + 'px';
+    }
+
+    createTrail(e) {
+        // Limit trail creation frequency
+        if (Math.random() > 0.7) return;
+
+        const trail = document.createElement('div');
+        trail.className = 'mouse-trail';
+        trail.style.left = e.clientX - 4 + 'px';
+        trail.style.top = e.clientY - 4 + 'px';
+        
+        // Add some randomness to position
+        const offsetX = (Math.random() - 0.5) * 10;
+        const offsetY = (Math.random() - 0.5) * 10;
+        trail.style.transform = `translate(${offsetX}px, ${offsetY}px)`;
+
+        document.body.appendChild(trail);
+        this.trails.push(trail);
+
+        // Remove trail after animation
+        setTimeout(() => {
+            if (trail.parentNode) {
+                trail.parentNode.removeChild(trail);
+            }
+            this.trails = this.trails.filter(t => t !== trail);
+        }, 800);
+
+        // Limit number of trails
+        if (this.trails.length > this.maxTrails) {
+            const oldTrail = this.trails.shift();
+            if (oldTrail && oldTrail.parentNode) {
+                oldTrail.parentNode.removeChild(oldTrail);
+            }
+        }
+    }
+
+    cleanupTrails() {
+        this.trails = this.trails.filter(trail => {
+            if (!trail.parentNode) {
+                return false;
+            }
+            return true;
+        });
+    }
+}
+
+// Initialize mouse trail effect
+document.addEventListener('DOMContentLoaded', () => {
+    // Small delay to ensure everything is loaded
+    setTimeout(() => {
+        new MouseTrailEffect();
+    }, 500);
+});
