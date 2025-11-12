@@ -348,6 +348,20 @@ body {
     color: #4682B4;
 }
 
+.dropdown-link-special {
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.1), rgba(184, 148, 31, 0.1));
+    border-left-color: #D4AF37 !important;
+    font-weight: 600;
+}
+
+.dropdown-link-special:hover {
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(184, 148, 31, 0.2));
+}
+
+.dropdown-link-special i {
+    color: #D4AF37 !important;
+}
+
 .dropdown-section {
     position: relative;
 }
@@ -1624,6 +1638,27 @@ body {
     color: #D4AF37;
 }
 
+.footer-link-special {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(184, 148, 31, 0.2));
+    border-radius: 25px;
+    color: #D4AF37 !important;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.footer-link-special:hover {
+    background: linear-gradient(135deg, rgba(212, 175, 55, 0.3), rgba(184, 148, 31, 0.3));
+    transform: translateX(5px);
+}
+
+.footer-link-special i {
+    color: #D4AF37;
+}
+
 .footer-section p {
     color: #ccc;
     line-height: 1.6;
@@ -1682,6 +1717,56 @@ body {
 
     100% {
         box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+    }
+}
+
+/* Davetiye Örnekleri Float Button */
+.davetiye-float {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 1000;
+}
+
+.davetiye-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4);
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+    animation: davetiyePulse 2s infinite;
+    border: 3px solid #D4AF37;
+}
+
+.davetiye-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 25px rgba(212, 175, 55, 0.6);
+    border-color: #b8941f;
+}
+
+.davetiye-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+@keyframes davetiyePulse {
+    0% {
+        box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4);
+    }
+
+    50% {
+        box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4), 0 0 0 10px rgba(212, 175, 55, 0.1);
+    }
+
+    100% {
+        box-shadow: 0 4px 20px rgba(212, 175, 55, 0.4);
     }
 }
 
@@ -2060,6 +2145,16 @@ body {
         height: 55px;
         font-size: 1.6rem;
     }
+
+    .davetiye-float {
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .davetiye-btn {
+        width: 70px;
+        height: 70px;
+    }
 }
 
 
@@ -2319,6 +2414,16 @@ body {
         width: 55px;
         height: 55px;
         font-size: 1.6rem;
+    }
+
+    .davetiye-float {
+        bottom: 20px;
+        left: 20px;
+    }
+
+    .davetiye-btn {
+        width: 70px;
+        height: 70px;
     }
 
     .star {
@@ -2681,8 +2786,9 @@ body {
     .mouse-trail {
         display: none;
     }
-}/
-* Price List Images Mobile Styles */
+}
+
+/* Price List Images Mobile Styles */
 @media (max-width: 768px) {
     .price-list-images {
         flex-direction: column;
