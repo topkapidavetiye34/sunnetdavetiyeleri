@@ -1,292 +1,289 @@
 // Products data embedded directly to avoid CORS issues
-const productsData = [
-  {
-    "kategori": "Sunnet",
-    "urunler": [
-      {
-        "urun_kodu": "1001",
-        "fiyat": "398, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1002",
-        "fiyat": "238, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1003",
-        "fiyat": "238, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1004",
-        "fiyat": "398, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1005",
-        "fiyat": "338, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1006",
-        "fiyat": "338, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1007",
-        "fiyat": "538, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1008",
-        "fiyat": "538, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "1009",
-        "fiyat": "698, 00 TL  (100 Adet)"
-      },
-      {
-        "urun_kodu": "80901",
-        "fiyat": "1.006,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80902",
-        "fiyat": "810,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80903",
-        "fiyat": "881,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80904",
-        "fiyat": "1.009,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80905",
-        "fiyat": "981,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80906",
-        "fiyat": "2.248,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80907",
-        "fiyat": "981,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80908",
-        "fiyat": "911,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80909",
-        "fiyat": "1.068,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80911",
-        "fiyat": "11.662,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80912",
-        "fiyat": "1.316,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80913",
-        "fiyat": "12.555,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80914",
-        "fiyat": "1.062,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80915",
-        "fiyat": "1.209,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80916",
-        "fiyat": "7.828,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80917",
-        "fiyat": "9.098,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80918",
-        "fiyat": "899,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80919",
-        "fiyat": "1.153,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80921",
-        "fiyat": "650,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80922",
-        "fiyat": "650,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80923",
-        "fiyat": "861,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80924",
-        "fiyat": "1.020,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80925",
-        "fiyat": "8.829,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80926",
-        "fiyat": "650,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80927",
-        "fiyat": "11.439,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80928",
-        "fiyat": "8.829,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80929",
-        "fiyat": "650,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80931",
-        "fiyat": "1.261,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80932",
-        "fiyat": "861,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80933",
-        "fiyat": "911,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80934",
-        "fiyat": "1.283,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80935",
-        "fiyat": "650,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80936",
-        "fiyat": "861,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80938",
-        "fiyat": "911,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80939",
-        "fiyat": "798,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80941",
-        "fiyat": "798,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80942",
-        "fiyat": "861,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80943",
-        "fiyat": "1.209,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80944",
-        "fiyat": "1.209,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80945",
-        "fiyat": "1.209,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80946",
-        "fiyat": "1.248,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80947",
-        "fiyat": "812,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80948",
-        "fiyat": "1.891,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80949",
-        "fiyat": "650,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80951",
-        "fiyat": "650,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80952",
-        "fiyat": "1.675,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80953",
-        "fiyat": "970,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80954",
-        "fiyat": "650,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80955",
-        "fiyat": "1.109,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80957",
-        "fiyat": "11.238,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80958",
-        "fiyat": "11.110,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80959",
-        "fiyat": "874,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80962",
-        "fiyat": "874,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80964",
-        "fiyat": "2.955,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80965",
-        "fiyat": "8.230,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80967",
-        "fiyat": "981,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80971",
-        "fiyat": "6.248,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80972",
-        "fiyat": "5.926,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80973",
-        "fiyat": "1.621,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80974",
-        "fiyat": "1.020,00 TL (100 Adet)"
-      },
-      {
-        "urun_kodu": "80975",
-        "fiyat": "1.020,00 TL (100 Adet)"
-      }
-
-    ]
-  }
-];
+const productsData = {
+    "kategori":  "Sunnet",
+    "urunler":  [
+                    {
+                        "urun_kodu":  "1001",
+                        "fiyat":  "488, 00 TL  (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "1002",
+                        "fiyat":  "248, 00 TL  (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "1003",
+                        "fiyat":  "248, 00 TL  (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "1004",
+                        "fiyat":  "488, 00 TL  (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "1005",
+                        "fiyat":  "418, 00 TL  (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "1006",
+                        "fiyat":  "418, 00 TL  (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "1007",
+                        "fiyat":  "590, 00 TL  (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "1008",
+                        "fiyat":  "590, 00 TL  (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "1009",
+                        "fiyat":  "848, 00 TL  (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80901",
+                        "fiyat":  "1.006,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80902",
+                        "fiyat":  "810,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80903",
+                        "fiyat":  "881,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80904",
+                        "fiyat":  "1.009,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80905",
+                        "fiyat":  "981,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80906",
+                        "fiyat":  "2.248,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80907",
+                        "fiyat":  "981,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80908",
+                        "fiyat":  "911,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80909",
+                        "fiyat":  "1.068,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80911",
+                        "fiyat":  "11.662,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80912",
+                        "fiyat":  "1.316,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80913",
+                        "fiyat":  "12.555,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80914",
+                        "fiyat":  "1.062,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80915",
+                        "fiyat":  "1.209,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80916",
+                        "fiyat":  "7.828,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80917",
+                        "fiyat":  "9.098,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80918",
+                        "fiyat":  "899,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80919",
+                        "fiyat":  "1.153,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80921",
+                        "fiyat":  "650,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80922",
+                        "fiyat":  "650,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80923",
+                        "fiyat":  "861,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80924",
+                        "fiyat":  "1.020,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80925",
+                        "fiyat":  "8.829,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80926",
+                        "fiyat":  "650,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80927",
+                        "fiyat":  "11.439,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80928",
+                        "fiyat":  "8.829,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80929",
+                        "fiyat":  "650,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80931",
+                        "fiyat":  "1.261,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80932",
+                        "fiyat":  "861,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80933",
+                        "fiyat":  "911,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80934",
+                        "fiyat":  "1.283,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80935",
+                        "fiyat":  "650,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80936",
+                        "fiyat":  "861,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80938",
+                        "fiyat":  "911,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80939",
+                        "fiyat":  "798,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80941",
+                        "fiyat":  "798,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80942",
+                        "fiyat":  "861,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80943",
+                        "fiyat":  "1.209,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80944",
+                        "fiyat":  "1.209,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80945",
+                        "fiyat":  "1.209,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80946",
+                        "fiyat":  "1.248,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80947",
+                        "fiyat":  "812,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80948",
+                        "fiyat":  "1.891,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80949",
+                        "fiyat":  "650,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80951",
+                        "fiyat":  "650,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80952",
+                        "fiyat":  "1.675,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80953",
+                        "fiyat":  "970,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80954",
+                        "fiyat":  "650,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80955",
+                        "fiyat":  "1.109,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80957",
+                        "fiyat":  "11.238,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80958",
+                        "fiyat":  "11.110,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80959",
+                        "fiyat":  "874,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80962",
+                        "fiyat":  "874,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80964",
+                        "fiyat":  "2.955,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80965",
+                        "fiyat":  "8.230,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80967",
+                        "fiyat":  "981,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80971",
+                        "fiyat":  "6.248,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80972",
+                        "fiyat":  "5.926,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80973",
+                        "fiyat":  "1.621,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80974",
+                        "fiyat":  "1.020,00 TL (100 Adet)"
+                    },
+                    {
+                        "urun_kodu":  "80975",
+                        "fiyat":  "1.020,00 TL (100 Adet)"
+                    }
+                ]
+};
 
 console.log('Products data loaded:', productsData);
 
