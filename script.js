@@ -1,5 +1,6 @@
 // Products data embedded directly to avoid CORS issues
-const productsData = {
+const productsData = [
+{
     "kategori":  "Sunnet",
     "urunler":  [
                     {
@@ -283,7 +284,8 @@ const productsData = {
                         "fiyat":  "1.020,00 TL (100 Adet)"
                     }
                 ]
-};
+}
+];
 
 console.log('Products data loaded:', productsData);
 
